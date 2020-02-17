@@ -1,0 +1,18 @@
+{
+    "API": {
+        "address": "0.0.0.0",
+        "port": "3000"
+    },
+    "mongodb": {
+        "address": "",
+        "port": "",
+        "db": "boticarioTest",
+        "user": "",
+        "pass": ""
+    },
+    "jwt": {
+        "secret": "boticarioTest"
+    },
+    "whiteList": ["15350946056"],
+    "externalAPI": "https://mdaqk8ek5j.execute-api.us-east-1.amazonaws.com/v1/cashback"
+}

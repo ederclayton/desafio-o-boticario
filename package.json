@@ -1,0 +1,37 @@
+{
+  "name": "desafio-o-boticario",
+  "version": "1.0.0",
+  "description": "Esse é um desafio sugerido pelo grupo boticário. Faz parte do seu processo seletivo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test_int & npm run test_unit",
+    "test_int": "mocha tests/integration.test.js --exit",
+    "test_unit": "mocha tests/unit.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederclayton/desafio-o-boticario.git"
+  },
+  "author": "Eder Clayton <eder.comp.uece@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ederclayton/desafio-o-boticario/issues"
+  },
+  "homepage": "https://github.com/ederclayton/desafio-o-boticario#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^3.0.8",
+    "cpf-cnpj-validator": "^0.1.0",
+    "express": "4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.1",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "sinon": "^8.1.1",
+    "supertest": "^4.0.2"
+  }
+}
