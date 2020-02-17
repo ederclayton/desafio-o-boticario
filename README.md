@@ -1,6 +1,6 @@
 # Challenge Boticário Group
 
-The ideia is create a Cashback system, where the amount will be made available as a credit for the next purchase from the dealership in Boticário. This API Rest was made using NodeJS and MongoDB.
+The ideia is to create a Cashback system, where the amount will be made available as a credit for the next purchase. This API Rest was made using NodeJS and MongoDB.
 
 ```
 OBS: This software is part of a programming test, so everything that has been implemented is fictionalized.
